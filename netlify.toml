@@ -1,0 +1,5 @@
+[build]
+base = "mitsab_global"
+publish = "dist"
+command = "npm run build"
+
