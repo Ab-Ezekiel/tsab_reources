@@ -1,5 +1,5 @@
 [build]
-base = "mitsab_global"
+base = "tsab_resources"
 publish = "dist"
 command = "npm run build"
 
