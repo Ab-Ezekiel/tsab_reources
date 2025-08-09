@@ -28,6 +28,7 @@
 }
 .navbar .nav_tabs{
     margin-left: 8rem;
+    
 }
 .navbar.visible .nav_tabs .tab p{
     display: flex;
@@ -36,6 +37,7 @@
     cursor: pointer;
     color: var(--color-success);
     border-radius: var(--radius-3);
+    
 }
 .navbar .nav_tabs .tab p{
     display: flex;
@@ -46,9 +48,10 @@
     border-radius: var(--radius-3);
     font-size: large;
     font-weight: 600;
+   
 }
 .navbar .nav_tabs .tab:hover{
-    color: var(--color-white);
+    color: var(--color-success);
 }
 .navbar .nav_tabs .tab.active p{
     color: var(--color-white);
@@ -93,7 +96,32 @@
 }
 
 /* Responsive code */
-@media (max-width: 1000px){
+@media (max-width: 1400px){
+    .navbar .nav_tabs{ 
+    margin-left: -1rem;
+
+    }
+    .navbar .nav_tab{
+        width: 8rem;
+    }
+    .navbar .nav_tabs .tab{
+        margin-left: -.5rem;
+        color: var(--color-text);
+       
+       
+        display: flex;
+        align-items: center;
+        
+        cursor: pointer;
+        color: var(--color-text);
+        border-radius: var(--radius-3);
+        font-size: large;
+        font-weight: 600;
+
+
+    }
+}
+@media (max-width: 1200px){
     .navbar .nav_tabs{
         font-size: 1rem;
         position: fixed;
@@ -125,10 +153,9 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .navbar .contact_btn{
         display: none;
     }
 }
     
-

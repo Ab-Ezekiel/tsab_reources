@@ -14,8 +14,8 @@ const Footer = () => {
           <div className="column">
             <Logo/>
             <p className='mission-text'>
-              Mitsab Resources Global Limited, a trusted force in conversation,
-              exploration and environmental solutions, driven by local content.
+              Tsab Resources Global Limited a subsidiary of Mitsab Resources Global Limited (MIREGL) is a Nigerian company delivering sustainable solutions across construction, 
+             exploration, and environmental sectors.
             </p>
             <form action="" className='newsletter'>
               <h3>Get weekly update</h3>
@@ -52,19 +52,19 @@ const Footer = () => {
         <div className="copyright">
           <div className="container">
             <h3>Copyright &copy; 2025 | All Rights Reserved</h3>
-            <p className="text_muted">Built with ❤️ and dedication by a passionate group led by Abraham Akpan</p>
+            <p className="text_muted">Developed with precision and care by Manful Technologies</p>
           </div>
           <div className='social-container'>
             <p>Follow Us</p>
             <div className='socials'>
-            {
-              teams[0].social.map((item,i)=>(
-                <a href={item.url || "#"} target='_blank' className="icon_container" key={i}>
-                  {item.icon}
-                </a>
-              ))
-            }
-          </div>
+              {
+                teams[0].social.map((item,i)=>(
+                  <a href={item.url || "#"} target='_blank' className="icon_container" key={i}>
+                    {item.icon}
+                  </a>
+                ))
+              }
+            </div>
 
           </div>
         </div>

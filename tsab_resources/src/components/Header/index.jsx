@@ -60,7 +60,7 @@ const Header = () => {
           </div>
 
           {/* Right Column - Image */}
-          <div className="column">
+          <div className="right_column">
       
             <div className="image_container">
               <img src={logo} alt="Hero" />

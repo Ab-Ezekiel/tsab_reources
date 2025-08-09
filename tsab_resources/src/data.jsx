@@ -209,15 +209,17 @@ export const testimonial = [
 
 export const blogs = [
   {
-      title:"Sustainable Construction: Building for the Future",
+      title:"Empowering Performance Through Team Culture and Employee Recognition",
       image:blog_1,
-      category:"Building",
+      
+      category:"Events",
       content:`
-        As the construction industry continues to evolve, the focus on sustainability 
-        has never been more critical. Sustainable construction is not just a trend; 
-        it's a necessity for our planet's future. In this blog post, we'll explore 
-        the principles of sustainable construction, the benefits it offers, and how 
-        our company is leading the way in eco-friendly building practices.
+        At Mitsab Resources Global Limited, we believe that teamwork is more 
+        than collaboration—it's a culture. By integrating a structured employee recognition 
+        strategy into our operations, we foster motivation, strengthen morale, and enhance 
+        our project delivery outcomes. In this post, we explore how recognizing our workforce 
+        and maintaining strong client partnerships drive exceptional performance across 
+        all levels of our organization.
       `,
       date:new Date("January 10, 2024"),
       likeCount:34,

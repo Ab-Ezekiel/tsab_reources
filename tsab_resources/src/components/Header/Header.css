@@ -1,8 +1,7 @@
 #header{
     background: var(--glow-1);
     position: static !important;
-    
-    border: dashed;
+  
 
 }
 #header::before{
@@ -22,22 +21,7 @@
     padding-top: 30px;
 }
 
-/*
 
-#header .container .row .column:first-child{
-    border: dashed;
-    flex: 1;
-}
-
-#header .image_container{
-    border: dashed;
-    width: 100%;
-    max-width: 450px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: var(--radius-2);
-    transition: var(--transition);
-}*/
 #header .container > .row {
     display: flex;
     gap: 40px;
@@ -52,7 +36,6 @@
     flex: 1; /* Makes columns equal width */
    
 }
-
 
 #header .container .row .column:first-child {
     border-radius: var(--radius-3);
@@ -105,7 +88,13 @@
     transform: scale(1.2);
   
 }
-@media (max-width:900px){
+@media (max-width:1040px){
+     #footer .container{
+        margin-top: 5rem;
+    }
+    #header .right_column{
+        display: none;
+    }
     #header .container *{
         text-align: center;
     }

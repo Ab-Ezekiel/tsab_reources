@@ -10,7 +10,7 @@ const Logo = () => {
         <Link to="/" className="icon_container">
           <img src={logo} alt="" />
         </Link>
-        <h1 className='title'>Tsab Resources </h1>
+        <h1 className='title'>Tsab Resources  <span className='g-text'>Global Limited</span></h1>
     </div>
   )
 }

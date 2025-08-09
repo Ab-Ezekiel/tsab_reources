@@ -23,9 +23,11 @@
     margin: 10px 0;
    
 }
-#about .container .para{
+
+#about .text_muted{
     text-align: justify;
-    text-justify: inter-word;
+    color: black;
+    
 }
 #about .group{
     display: grid;
@@ -82,9 +84,14 @@
         display: none;
     }
     #about .title,
-    #about .sub_title,
-    #about .description{
+    #about .sub_title{
         text-align: center;
+    }
+    #about .text_muted{
+        text-align: justify;
+        
+        font-weight: 400;
+        
     }
     #about .buttons_container{
         justify-content: center;

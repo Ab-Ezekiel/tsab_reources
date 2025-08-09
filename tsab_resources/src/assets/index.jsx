@@ -19,7 +19,7 @@ export {default as building_7} from "./building-7.jpeg";
 export {default as building_8} from "./building-8.jpeg";
 export {default as building_9} from "./building-9.jpeg";
 export {default as building_10} from "./building-10.jpeg";
-export {default as blog_1} from "./blog-1.jpeg";
+export {default as blog_1} from "./blog2.jpeg";
 export {default as blog_2} from "./blog-2.jpeg";
 export {default as blog_3} from "./blog-3.jpeg";
 
